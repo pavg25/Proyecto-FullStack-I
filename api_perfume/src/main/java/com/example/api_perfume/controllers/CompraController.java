@@ -50,6 +50,13 @@ public class CompraController {
             // Restar stock y guardar
             Per.setStock(Per.getStock() - 1);
             perfumeService.agregar(Per); // actualiza el stock
+
+            webClient.post()
+            .uri("http://localhost:8084/compras")
+            .bodyValue(compraRequest) // puedes enviar CompraRequest si el microservicio acepta esos campos
+            .retrieve()
+            .bodyToMono(Void.class)  // si el microservicio devuelve algo puedes usar Compra.class
+            .block();
            
 
             // Armar respuesta
