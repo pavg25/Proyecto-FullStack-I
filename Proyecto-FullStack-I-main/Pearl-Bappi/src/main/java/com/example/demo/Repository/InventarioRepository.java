@@ -18,7 +18,7 @@ public class InventarioRepository {
         inventario.add(new InventarioModel("003", "Dior Sauvage", "Fragancia de Mujer", 120000, 19) );
         inventario.add(new InventarioModel("004", "versace", "Fragancia de Mujer", 115000, 3) );
         inventario.add(new InventarioModel("005", "Polo", "Fragancia de Hombre", 60000, 7) );
-       /* posible agregado para el inventario */
+       /* posible agregado para el inventario.*/
 
     }
     public ArrayList<InventarioModel> obtenerTodos(){
