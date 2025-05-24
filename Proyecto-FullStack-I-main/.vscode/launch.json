@@ -1,0 +1,90 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ApiVentasInventarioApplication",
+            "request": "launch",
+            "mainClass": "com.example.api_ventas_inventario.ApiVentasInventarioApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "GatewayApplication",
+            "request": "launch",
+            "mainClass": "com.example.gateway.GatewayApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "ApiPerfumeApplication",
+            "request": "launch",
+            "mainClass": "com.example.api_perfume.ApiPerfumeApplication",
+            "projectName": "api_perfume",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59689 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=api_perfume"
+        },
+        {
+            "type": "java",
+            "name": "MicroServicio01Application",
+            "request": "launch",
+            "mainClass": "com.example.MicroServicio01Application",
+            "projectName": "MicroServicio01",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59685 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=MicroServicio01"
+        },
+        {
+            "type": "java",
+            "name": "MicroServicio01",
+            "request": "launch",
+            "mainClass": "MicroServicio01.MicroServicio01",
+            "projectName": "MicroServicio01"
+        },
+        {
+            "type": "java",
+            "name": "ApiUsuariosApplication",
+            "request": "launch",
+            "mainClass": "api_usuarios.ApiUsuariosApplication",
+            "projectName": "MicroServicio01"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": "demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroServicio01Application<MicroServicio01>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.MicroServicio01.MicroServicio01Application",
+            "projectName": "MicroServicio01",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=63024 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=MicroServicio01"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayApplication<gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.gateway.GatewayApplication",
+            "projectName": "gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54481 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=gateway"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiVentasInventarioApplication<api_ventas_inventario>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.api_ventas_inventario.ApiVentasInventarioApplication",
+            "projectName": "api_ventas_inventario",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
