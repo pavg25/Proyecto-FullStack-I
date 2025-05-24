@@ -7,7 +7,7 @@ import com.example.microservicio01_registro_usuarios.models.entities.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer>{
 
-    User findEmail(String email);
+    User findEmail(String email); //metodo para buscar un usuario por su email//
     
     
 }
